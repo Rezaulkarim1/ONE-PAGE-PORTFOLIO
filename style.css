@@ -1,0 +1,263 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+}
+/*******************************/
+/******* header start **********/	
+/*******************************/
+.header{
+	width: 100%;
+	height: 100vh;
+	position: cover;
+	background-image: linear-gradient(rgba(51,51,51,0.3),rgba(90,2,2,0.3)), url('images/banner-01.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+
+
+}
+.header img{
+    width: 120px;
+    margin-top: 20px;
+}
+.container ul li a{
+	font-size: 20px;
+	color: #fff;
+}
+.container ul li a:hover{
+	background-color: #28a9e2;
+	border-radius: 100px 100px 0px 100px;
+}
+.content-area p{
+	font-size: 25px;
+}		
+.content-area h2{
+	font-size: 30px;
+	color:#fff;
+	
+}
+.content-area h3{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+}
+.content-area button{
+	font-size: 20px;
+}
+.content-area{
+	padding-top: 200px;
+	color: #fff;
+}
+img.logo {
+    max-height: 60px;
+    max-width: 60px;
+}
+/*******************************/
+/******* header end **********/	
+/*******************************/
+
+/*******************************/
+/******* photo galery **********/	
+/*******************************/
+#gallery img{
+	min-width: 300px;
+	min-height: 300px;
+    border-radius: 40px;
+    margin-top: 30px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;	
+}
+
+/*******************************/
+/******* photo galery end**********/	
+/*******************************/
+
+/*******************************/
+/******* home get started end**********/	
+/*******************************/
+#home-video{
+	background: url('images/265.jpg');
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+.dark-overlay{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} 
+#home-video .fa{
+	font-size: 50px;
+	color: #ff0000;
+}
+/*******************************/
+/******* home get started end**********/	
+/*******************************/
+
+/*******************************/
+/* client-feedback start */
+/*******************************/
+.slick-arrow{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+.slick-arrow i{
+	color: red;
+	font-size: 25px;
+}
+/*******************************/
+/* client-feedback end */
+/*******************************/
+
+/*******************************/
+/* card section start */
+/*******************************/
+.cardhover{
+	transition: 0.4s ease;
+}
+.cardhover:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+}
+/*******************************/
+/* card section end */
+/*******************************/
+
+/*******************************/
+/* Want To Work Start */
+/*******************************/
+
+.wantToWork-area h2 {
+    color: #ec5b53;
+    font-size: 48px;
+    line-height: 1.5;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.wantToWork-area{
+    background: url('images/203.jpg');
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+
+.wantToWork-area button{
+	font-size: 20px;
+}
+/*******************************/
+/* Want To Work end */
+/*******************************/
+
+/*******************************/
+/******* footer start**********/	
+/*******************************/
+
+.travel-social-media ul{
+	display: flex;	
+}
+.travel-social-media ul li{	
+	margin: 0 5px;
+	list-style-type: none;
+	text-align: center;
+}
+.travel-social-media ul li a{
+	color: #fff;
+	font-size: 20px;
+}
+.travel-social-media ul li a .fa{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;	
+	border-radius: 50%;
+}
+.travel-social-media ul li a .fa-facebook-official{
+	background-color: #3b5998;
+}
+.travel-social-media ul li a .fa-twitter{
+	background-color: #45aaf2;
+}
+.travel-social-media ul li a .fa-google-plus{
+	background-color: #dd4b39;
+}
+.travel-social-media ul li a .fa-envelope{
+	background-color: #ea4335;
+}
+.travel-social-media ul li a .fa:hover{
+	opacity: .5;
+}
+
+/*******************************/
+/******* footer start end**********/	
+/*******************************/
+
+/*******************************/
+/******* skill-bar start**********/	
+/*******************************/
+.slill{
+	margin-top: 100px;
+}
+.skillbar1{
+	width: 95%;
+	text-align: left;
+}
+.skillbar2{
+	width: 95%;
+	text-align: left;
+}
+.skillbar3{
+	width: 90%;
+	text-align: left;
+}
+.skillbar4{
+	width: 80%;
+	text-align: left;
+}
+.skillbar5{
+	width: 85%;
+	text-align: left;
+}
+.skillbar6{
+	width: 95%;
+	text-align: left;
+}
+/*******************************/
+/******* skill-bar-end **********/	
+/******************************/
+
+@media screen and (max-width: 767px){
+    .wantToWork-area{
+	   text-align: center;
+   }
+   .wantToWork-area button{
+	   margin-bottom: 100px;
+   }
+   .featured-catagories img{
+	   width: 100%;
+	   height: auto;
+   }
+}
+@media screen and (max-width: 575px){
+    .content-area{
+	   text-align: center;
+   }
+}
